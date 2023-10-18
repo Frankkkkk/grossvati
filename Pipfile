@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+azure-eventgrid = "*"
+azure-cognitiveservices-speech = "*"
+redis = "*"
+transitions = "*"
+python-statemachine = "*"
+epitran = "*"
+cologne-phonetics = "*"
+python-levenshtein = "*"
+azure-communication-callautomation = "==1.1.0b1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
